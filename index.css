@@ -95,3 +95,19 @@ body {
 .dropdown:hover .dropbtn {background-color: #ddd;
   color: black;
 }
+
+.grids{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  width: 900px;
+  flex-wrap: wrap;
+  /* grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+}
+.grids p
+{
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}

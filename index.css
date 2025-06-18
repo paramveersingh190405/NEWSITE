@@ -95,6 +95,25 @@ body {
 .dropdown:hover .dropbtn {background-color: #ddd;
   color: black;
 }
+/* search bar  */
+.navbar .search-bar {
+  float: right;
+  padding: 8px 16px;
+}
+.navbar .search-bar button {
+  border: none;
+  color: black;
+  margin: 0%;
+  height: 30px;
+  border-radius: 30px;
+}
+.navbar .search-bar input {
+  padding: 8px;
+  margin: 0px;
+  outline: none;  
+  border: none;             /* Removes default border */
+  border-radius: 20px;
+}
 
 .grids{
   display: grid;

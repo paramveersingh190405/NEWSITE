@@ -140,5 +140,6 @@ body {
     display: none; /* hide on mobile  class give to those links i want to hide on mobile*/
 }
 .navbar .search-bar input{
-    width: 100px; /* hide on mobile */
+    width: 60px; /* hide on mobile */
+}
 }

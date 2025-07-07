@@ -143,3 +143,17 @@ body {
     width: 60px; /* hide on mobile */
 }
 }
+
+.MAIN_FLEX {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px black solid;
+  flex-wrap:wrap;
+}
+
+.MAIN_FLEX .card {
+  padding: 20px;
+  text-align: center;
+  min-width: 200px;
+}

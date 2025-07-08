@@ -185,17 +185,20 @@ body {
   border: 2px solid red;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.7);
-  height: 150px;
   padding: 20px;
   margin: 10px 0; /* vertical margin only */
   flex: 1; /* take remaining width */
   min-width: 0; /* allow shrinking */
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1040px) {
+  .MAIN_FLEX {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    height: auto; /* Allow height to adjust */
+  }
   .MAIN_FLEX .card1 {
     flex-direction: column; /* Stack vertically on small screens */
-    height: auto; /* Allow height to adjust */
+    max-width: 100%; /* Full width on small screens */
   }
   .MAIN_FLEX .card2,
   .MAIN_FLEX .card3 {

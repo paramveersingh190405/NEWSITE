@@ -144,6 +144,22 @@ body {
   .navbar .search-bar input {
     width: 60px; /* hide on mobile */
   }
+  .MAIN_FLEX {
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+  }
+  .MAIN_FLEX .card1,
+  .MAIN_FLEX .card2,
+  .MAIN_FLEX .card3 {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 10px;
+    height: auto;
+  }
 }
 .container {
   display: flex;
@@ -152,7 +168,6 @@ body {
   width: 100vw; /* Full viewport width */
   overflow: hidden; /* Prevent overflow */
   background-color: aqua;
-  
 }
 .MAIN_FLEX {
   display: flex;
@@ -208,7 +223,6 @@ body {
     width: 100%; /* Full width on small screens */
     margin: 10px 0; /* vertical margin only */
   }
-  
 }
 
 .secondary_cards {

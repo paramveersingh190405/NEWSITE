@@ -198,6 +198,7 @@ body {
   .MAIN_FLEX {
     flex-direction: column; /* Stack cards vertically on smaller screens */
     height: auto; /* Allow height to adjust */
+    width: 100%; /* Full width */
   }
   .MAIN_FLEX .card1 {
     flex-direction: column; /* Stack vertically on small screens */

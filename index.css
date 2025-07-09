@@ -186,7 +186,7 @@ body {
 .MAIN_FLEX .card1 {
   display: flex;
   border: 2px solid red;
-  max-width: 600px;
+  max-width: auto;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.1); /* Translucent white */
   min-width: 200px;

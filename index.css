@@ -188,7 +188,6 @@ body {
 }
 
 .MAIN_FLEX .card2 {
-  display: flex;
   border: 2px solid red;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.7);
@@ -212,6 +211,7 @@ body {
 @media screen and (max-width: 1040px) {
   .MAIN_FLEX {
     flex-direction: column; /* Stack cards vertically on smaller screens */
+    flex-wrap: nowrap;
     height: auto; /* Allow height to adjust */
   }
   .MAIN_FLEX .card1 {
@@ -220,24 +220,8 @@ body {
   }
   .MAIN_FLEX .card2,
   .MAIN_FLEX .card3 {
-    width: 100%; /* Full width on small screens */
+    width: auto; /* Full width on small screens */
     margin: 10px 0; /* vertical margin only */
   }
 }
 
-.secondary_cards {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  flex-wrap: wrap;
-}
-.secondary_cards .card4 {
-  border: 2px solid red;
-  border-radius: 10px;
-  background: #fff;
-  min-width: 400px;
-  height: 150px;
-  padding: 20px;
-  margin: 10px;
-  flex: 1;
-}
